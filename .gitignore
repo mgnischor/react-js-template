@@ -1,0 +1,104 @@
+#--------------------------------------------------------------------------------------------------
+# This is free and unencumbered software released into the public domain.                         -
+#                                                                                                 -
+# Anyone is free to copy, modify, publish, use, compile, sell, or distribute this software,       -
+# either in source code form or as a compiled binary, for any purpose, commercial or              -
+# non-commercial, and by any means.                                                               -
+#                                                                                                 -
+# In jurisdictions that recognize copyright laws, the author or authors of this software dedicate -
+# any and all copyright interest in the software to the public domain. We make this dedication    -
+# for the benefit of the public at large and to the detriment of our heirs and successors. We     -
+# intend this dedication to be an overt act of relinquishment in perpetuity of all present and    -
+# future rights to this software under copyright law.                                             -
+#                                                                                                 -
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING   -
+# BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND      -
+# NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER        -
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN      -
+# CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.                      -
+#                                                                                                 -
+# For more information, please refer to <http://unlicense.org/>                                   -
+#--------------------------------------------------------------------------------------------------
+# Project react-js-template                                                                       -
+# Copyright © 2023 Project Authors                                                                -
+#                                                                                                 -
+# File: .gitignore                                                                                -
+# Description: Files and folders ignored by Git version control system.                           -
+# Author: Author Name <email@corporation.com>                                                     -
+#--------------------------------------------------------------------------------------------------
+
+# Dependencies
+.pnp.js
+/.pnp
+/node_modules
+
+# Testing
+/coverage
+
+# Production
+/build
+
+# Miscelaneous
+.env.development.local
+.env.local
+.env.production.local
+.env.test.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Visual Studio Code
+!.vscode/*.code-snippets
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/tasks.json
+.history/
+.vscode/*
+*.vsix
+
+# Sublime Text
+*.stTheme.cache
+*.tmlanguage.cache
+*.tmPreferences.cache
+bh_unicode_properties.cache
+GitHub.sublime-settings
+oscrypto-ca-bundle.crt
+Package Control.ca-bundle
+Package Control.ca-certs/
+Package Control.ca-list
+Package Control.cache/
+Package Control.last-run
+Package Control.merged-ca-bundle
+Package Control.system-ca-bundle
+Package Control.user-ca-bundle
+sftp-config-alt*.json
+sftp-config.json
+
+# Apple Mac OS
+.apdisk
+.AppleDB
+.AppleDesktop
+.AppleDouble
+.com.apple.timemachine.donotpresent
+.DocumentRevisions-V100
+.DS_Store
+.fseventsd
+.LSOverride
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+Network Trash Folder
+Temporary Items
+
+# Microsoft Windows
+[Dd]esktop.ini
+*.lnk
+*.stackdump
+ehthumbs_vista.db
+ehthumbs.db
+Thumbs.db
+Thumbs.db:encryptable
