@@ -1,0 +1,33 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+
+	"settings":
+	{
+		"prettier.tabWidth": 4,
+		"prettier.enable": true,
+
+		"editor.detectIndentation": true,
+		"editor.insertSpaces": true,
+		"editor.fontSize": 12,
+		"editor.tabSize": 4,
+
+		"files.defaultLanguage": "js",
+		"files.enableTrash": true,
+		"files.encoding": "utf8",
+		"files.eol": "auto",
+
+		"npm.packageManager": "npm",
+		"npm.autoDetect": "on",
+
+		"git.ignoreWindowsGit27Warning": true,
+		"git.ignoreMissingGitWarning": true,
+		"git.ignoreRebaseWarning": true,
+		"git.ignoreLegacyWarning": true,
+		"git.ignoreLimitWarning": true
+	}
+}
